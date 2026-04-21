@@ -64,7 +64,17 @@
             <span>Easy</span>
             <span>Karnataka</span>
           </div>
-          <button class="card-btn">View Details</button>
+          <button 
+  class="card-btn open-popup"
+  data-title="Gokarna Beach Trek"
+  data-description="Coastal trek with beachside camping, sunrise views, and a short weekend escape."
+  data-price="₹2,499"
+  data-duration="2 Days"
+  data-location="Karnataka"
+  data-image="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80"
+>
+  View Details
+</button>
         </div>
       </div>
 
@@ -81,7 +91,17 @@
             <span>Moderate</span>
             <span>Chikmagalur</span>
           </div>
-          <button class="card-btn">View Details</button>
+          <button 
+  class="card-btn open-popup"
+  data-title="Chikmagalur Escape"
+  data-description="Hill station getaway with scenic views, coffee estates, and trekking experiences."
+  data-price="₹3,499"
+  data-duration="2 Days"
+  data-location="Chikmagalur"
+  data-image="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80"
+>
+  View Details
+</button>
         </div>
       </div>
 
@@ -98,7 +118,17 @@
             <span>Easy</span>
             <span>Coorg</span>
           </div>
-          <button class="card-btn">View Details</button>
+          <button 
+  class="card-btn open-popup"
+  data-title="Coorg Backpacking"
+  data-description="Forest stays, waterfalls, group activities, and a refreshing weekend nature break."
+  data-price="₹3,999"
+  data-duration="3 Days"
+  data-location="Coorg"
+  data-image="https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1200&q=80"
+>
+  View Details
+</button>
         </div>
       </div>
     </div>
@@ -186,13 +216,28 @@
         <h2>Ready to launch your travel brand online?</h2>
         <p>This website can be customized for trekking groups, travel pages, and tour organizers.</p>
       </div>
-      <a href="https://wa.me/919110248823" target="_blank" class="btn btn-primary">Contact on WhatsApp</a>
+      <a href="https://wa.me/919110248823" target="_blank" class="btn btn-primary">Plan Your Trip</a>
     </div>
   </section>
 
   <footer class="footer">
     <p>© 2026 TrekAura. Designed for travel brands, trek organizers, and booking businesses.</p>
   </footer>
+
+  <div class="popup-overlay" id="tripPopup">
+  <div class="popup-card">
+    <button class="popup-close" id="closePopup">&times;</button>
+    <img id="popupImage" src="" alt="Trip Image" />
+    <h3 id="popupTitle"></h3>
+    <p id="popupDescription"></p>
+    <div class="popup-meta">
+      <span id="popupPrice"></span>
+      <span id="popupDuration"></span>
+      <span id="popupLocation"></span>
+    </div>
+    <a href="#contact" class="btn btn-primary">Enquire Now</a>
+  </div>
+</div>
 
   <script src="script.js"></script>
 </body>
