@@ -52,28 +52,22 @@ trekaura-travel-website/
 ## 📸 Screenshots
 
 ### Hero Section
-
-![Hero Section](images/hero-section.png)
+![Hero Section](assets/hero-section.png)
 
 ### Featured Trips
-
-![Featured Trips](images/featured-trips.png)
+![Featured Trips](assets/featured-trips.png)
 
 ### Trip Details Popup
-
-![Trip Details Popup](images/trip-popup.png)
+![Trip Details Popup](assets/trip-popup.png)
 
 ### Why Choose TrekAura
-
-![Why Choose TrekAura](images/why-choose-us.png)
+![Why Choose TrekAura](assets/why-choose-us.png)
 
 ### Traveller Reviews
-
-![Traveller Reviews](images/reviews-section.png)
+![Traveller Reviews](assets/reviews-section.png)
 
 ### FAQ Section
-
-![FAQ Section](images/faq-section.png)
+![FAQ Section](assets/faq-section.png)
 
 ---
 
